@@ -1,0 +1,205 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:2:1-56:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\07f31575a18beafa8d6b1114c6c821e2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\f20077151cf296d6ee86716f0f748408\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\0ecd487b3565058a7ce35db29ccfbd3b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\29b63b1cb5485aa5141fea5767787ea0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\700460df44d91b91d253f5ab609a6767\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\fa43b3a6c76ed3016153cdb81e4a43e7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\b8346c3418eaecf1f92ff25388b7c8e6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\70683893df8e0971be5500c251af6890\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\044d28f2d9a57a1287d63c2e83da7a6e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\2e221b4412d64f0605e12a0067478ff8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\8a9fec020ba15856b5ccdafa10c24ca7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\76cdccdf183d73be1c60bd9f14be9f0c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\2aecc83f1ef1dfca24c0836820a6df4d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\b65d5b9802739571fbc6cb54c451cafd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\a2688c46868ae3ada7e03c6e150af3f4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\cd53bc171d4afbeddf0575cf8a9728b6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\c49133aae0e0ea1ba22e5f35564ef0e3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\5e279b4a9a19b259763562f4d0cde5d4\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\bdc7a319eba2e193f36b5dc035338698\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\00eb18d6ad120a9e25f53da381da62af\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\e6f369901f73a2d08b6b67262a84c69c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\c1b890c3066b6f96994116b1bf30519d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\74d92046e7acdeec5d607e93e263ce36\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\966c2aa14b1b8fe1f269fa65d05f4856\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\c8cb7672de63c7103df181b2ab9935be\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\46f76c47fbebb4ea55d0b3f327d841aa\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\c8a1baebca8c5d077d10098b4f3b6ccd\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f1a18e27a7d6eb42bcd429054d2b2ba1\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:2:1-56:12
+	package
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:8:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:9:22-73
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:10:22-64
+application
+ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:12:5-54:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\c49133aae0e0ea1ba22e5f35564ef0e3\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\c49133aae0e0ea1ba22e5f35564ef0e3\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\5e279b4a9a19b259763562f4d0cde5d4\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\5e279b4a9a19b259763562f4d0cde5d4\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\c49133aae0e0ea1ba22e5f35564ef0e3\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:15:9-41
+	android:icon
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:14:9-45
+	android:allowBackup
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:16:9-40
+activity#com.example.indoorpositioning.Scan
+ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:18:9-22:20
+	android:label
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:20:13-33
+	android:name
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:19:13-33
+activity#com.example.indoorpositioning.Positions
+ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:23:9-27:20
+	android:label
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:25:13-38
+	android:name
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:24:13-38
+activity#com.example.indoorpositioning.Buildings
+ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:28:9-32:20
+	android:label
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:30:13-38
+	android:name
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:29:13-38
+activity#com.example.indoorpositioning.StartingScreen
+ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:33:9-41:20
+	android:label
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:35:13-45
+	android:name
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:34:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:36:13-39:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:37:17-76
+	android:name
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:38:27-74
+activity#com.example.indoorpositioning.Locate
+ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:43:9-45:20
+	android:label
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:44:13-35
+	android:name
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:43:19-41
+activity#com.example.indoorpositioning.AndroidDatabaseManager
+ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:46:9-47:56
+	android:label
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:47:13-44
+	android:name
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:46:19-57
+activity#com.example.indoorpositioning.FriendlyWifis
+ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:49:9-52:20
+	android:label
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:50:13-50
+	android:name
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml:49:19-48
+uses-sdk
+INJECTED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\07f31575a18beafa8d6b1114c6c821e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\07f31575a18beafa8d6b1114c6c821e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\f20077151cf296d6ee86716f0f748408\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\f20077151cf296d6ee86716f0f748408\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\0ecd487b3565058a7ce35db29ccfbd3b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\0ecd487b3565058a7ce35db29ccfbd3b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\29b63b1cb5485aa5141fea5767787ea0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\29b63b1cb5485aa5141fea5767787ea0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\700460df44d91b91d253f5ab609a6767\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\700460df44d91b91d253f5ab609a6767\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\fa43b3a6c76ed3016153cdb81e4a43e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\fa43b3a6c76ed3016153cdb81e4a43e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\b8346c3418eaecf1f92ff25388b7c8e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\b8346c3418eaecf1f92ff25388b7c8e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\70683893df8e0971be5500c251af6890\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\70683893df8e0971be5500c251af6890\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\044d28f2d9a57a1287d63c2e83da7a6e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\044d28f2d9a57a1287d63c2e83da7a6e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\2e221b4412d64f0605e12a0067478ff8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\2e221b4412d64f0605e12a0067478ff8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\8a9fec020ba15856b5ccdafa10c24ca7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\8a9fec020ba15856b5ccdafa10c24ca7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\76cdccdf183d73be1c60bd9f14be9f0c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\76cdccdf183d73be1c60bd9f14be9f0c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\2aecc83f1ef1dfca24c0836820a6df4d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\2aecc83f1ef1dfca24c0836820a6df4d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\b65d5b9802739571fbc6cb54c451cafd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\b65d5b9802739571fbc6cb54c451cafd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\a2688c46868ae3ada7e03c6e150af3f4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\a2688c46868ae3ada7e03c6e150af3f4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\cd53bc171d4afbeddf0575cf8a9728b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\cd53bc171d4afbeddf0575cf8a9728b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\c49133aae0e0ea1ba22e5f35564ef0e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\c49133aae0e0ea1ba22e5f35564ef0e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\5e279b4a9a19b259763562f4d0cde5d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\5e279b4a9a19b259763562f4d0cde5d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\bdc7a319eba2e193f36b5dc035338698\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\bdc7a319eba2e193f36b5dc035338698\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\00eb18d6ad120a9e25f53da381da62af\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\00eb18d6ad120a9e25f53da381da62af\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\e6f369901f73a2d08b6b67262a84c69c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\e6f369901f73a2d08b6b67262a84c69c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\c1b890c3066b6f96994116b1bf30519d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\c1b890c3066b6f96994116b1bf30519d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\74d92046e7acdeec5d607e93e263ce36\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\74d92046e7acdeec5d607e93e263ce36\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\966c2aa14b1b8fe1f269fa65d05f4856\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\966c2aa14b1b8fe1f269fa65d05f4856\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\c8cb7672de63c7103df181b2ab9935be\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\c8cb7672de63c7103df181b2ab9935be\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\46f76c47fbebb4ea55d0b3f327d841aa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\46f76c47fbebb4ea55d0b3f327d841aa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\c8a1baebca8c5d077d10098b4f3b6ccd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\c8a1baebca8c5d077d10098b4f3b6ccd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f1a18e27a7d6eb42bcd429054d2b2ba1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Enryu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f1a18e27a7d6eb42bcd429054d2b2ba1\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Enryu\Downloads\WiFiPS-master (2)\WiFiPS-master (2)\WiFiPS-master\android-client\app\src\main\AndroidManifest.xml

@@ -1,0 +1,4 @@
+#Fri Aug 09 22:44:46 ICT 2019
+base.0=C\:\\Users\\Enryu\\Downloads\\WiFiPS-master (2)\\WiFiPS-master\\android-client\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

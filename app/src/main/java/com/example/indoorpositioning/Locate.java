@@ -89,89 +89,121 @@ public class Locate extends Activity {
         if(resultCode==RESULT_OK){
 
 
-		PositionData positionData = (PositionData) intent
-				.getSerializableExtra("PositionData");
-		positionsData=db.getReadings(building);
+			PositionData positionData = (PositionData) intent
+					.getSerializableExtra("PositionData");
+			positionsData=db.getReadings(building);
 
-		String closestPosition = null;
+			String closestPosition = null;
 
-		ArrayList<Router> wifis = db.getFriendlyWifis(building);
+			ArrayList<Router> wifis = db.getFriendlyWifis(building);
 
-		int min_distance = positionData.uDistance(positionsData.get(0), wifis);
-		HashMap<String, Integer> rssi = positionData.getValues();
-		HashMap<String, Integer> rssi1 = positionsData.get(0).getValues();
-        int j=0;
-        HashMap<String, String> dest = positionsData.get(0).getRouters();
-		closestPosition = positionsData.get(0).getName();
-		String res = "";
-		res += closestPosition + "\n" + min_distance;
-		res += "\n" + positionsData.get(0).toString();
-        int dista =  0;
-		if (positionsData.contains(dest)){
-		    dista = Integer.parseInt(String.valueOf(rssi))-Integer.parseInt(String.valueOf(rssi1));
-        }
+			double min_distance = positionData.uDistance(positionsData.get(0), wifis);
+			int j=0;
+			int k=0;
+			closestPosition = positionsData.get(0).getName();
+			String res1 = "";
+			res1 += closestPosition + "\n" + min_distance;
+			res1 += "\n" + positionsData.get(0).toString();
 
-        Log.v("dis:", String.valueOf(dista));
 
-		for (int i = 1; i < positionsData.size(); i++) {
-			int distance = positionData.uDistance(positionsData.get(i), wifis);
-			Log.v("distance:", String.valueOf(rssi));
-			Log.v("distance2:", String.valueOf(rssi1));
-			res += "\n" + positionsData.get(i).getName() + "\n" + distance;
-			res += "\n" + positionsData.get(i).toString();
-			if (distance < min_distance) {
-				min_distance = distance;
-                j=i;
 
-				closestPosition = positionsData.get(i).getName();
+			for (int i = 1; i < positionsData.size(); i++) {
+				double distance = positionData.uDistance(positionsData.get(i), wifis);
+				res1 += "\n" + positionsData.get(i).getName() + "\n" + distance;
+				res1 += "\n" + positionsData.get(i).toString();
+				if (distance < min_distance) {
+					min_distance = distance;
+					j=i;
+					k=i;
+					closestPosition = positionsData.get(i).getName();
+
+				}
+
+			}
+			if (min_distance == PositionData.MAX_DISTANCE){
+				closestPosition="OUT OF RANGE";
+				Toast.makeText(this,"You are out of range of the selected building",Toast.LENGTH_LONG).show();
+
+			}
+			result.setText("Nearest point :  "+ closestPosition);
+
+			//////////////////////////////////////////////////
+			min_distance = positionData.uDistance(positionsData.get(0), wifis);
+			String closestPosition2 = null;
+
+			closestPosition2 = positionsData.get(0).getName();
+			String res2 = "";
+			res2 += closestPosition2 + "\n" + min_distance;
+			res2 += "\n" + positionsData.get(0).toString();
+
+			for (int i = 1; i < positionsData.size(); i++) {
+				if(i!=j) {
+					double distance = positionData.uDistance(positionsData.get(i), wifis);
+					res2 += "\n" + positionsData.get(i).getName() + "\n" + distance;
+					res2 += "\n" + positionsData.get(i).toString();
+					closestPosition2 = positionsData.get(i).getName();//////////////////////////
+					if(closestPosition2.equals(closestPosition))
+						continue;
+					if (distance < min_distance) {
+						min_distance = distance;
+						k=j;
+						closestPosition2 = positionsData.get(i).getName();
+
+
+					}
+				}
+			}
+
+			if (min_distance == PositionData.MAX_DISTANCE){
+				closestPosition2="OUT OF RANGE";
+				Toast.makeText(this,"You are out of range of the selected building",Toast.LENGTH_LONG).show();
 
 			}
 
-		}
-           if (min_distance == PositionData.MAX_DISTANCE){
-                closestPosition="OUT OF RANGE";
-                Toast.makeText(this,"You are out of range of the selected building",Toast.LENGTH_LONG).show();
-
-            }
-            result.setText("Nearest point :  "+ closestPosition);
+			result2.setText("Nearest point :  "+ closestPosition2);
 
             //////////////////////////////////////////////////
             min_distance = positionData.uDistance(positionsData.get(0), wifis);
-            String closestPosition2 = null;
+            String closestPosition3 = null;
 
-            closestPosition2 = positionsData.get(0).getName();
-            res = "";
-            res += closestPosition2 + "\n" + min_distance;
-            res += "\n" + positionsData.get(0).toString();
+            closestPosition3 = positionsData.get(0).getName();
+            String res3 = "";
+            res3 += closestPosition3 + "\n" + min_distance;
+            res3 += "\n" + positionsData.get(0).toString();
             for (int i = 1; i < positionsData.size(); i++) {
-               if(i!=j) {
-                    int distance = positionData.uDistance(positionsData.get(i), wifis);
-                    res += "\n" + positionsData.get(i).getName() + "\n" + distance;
-                    res += "\n" + positionsData.get(i).toString();
-                    closestPosition2 = positionsData.get(i).getName();//////////////////////////
-                    if(closestPosition2.equals(closestPosition))
-                        continue;
-                    if (distance < min_distance) {
-                        min_distance = distance;
-                        closestPosition2 = positionsData.get(i).getName();
+                if(i!=k) {
+					if (j != k) {
+						double distance = positionData.uDistance(positionsData.get(i), wifis);
+						res3 += "\n" + positionsData.get(i).getName() + "\n" + distance;
+						res3 += "\n" + positionsData.get(i).toString();
+						closestPosition3 = positionsData.get(i).getName();//////////////////////////
+						if (closestPosition3.equals(closestPosition2))
+							continue;
+						if (closestPosition3.equals(closestPosition))
+							continue;
+						if (distance < min_distance) {
+							min_distance = distance;
+							closestPosition3 = positionsData.get(i).getName();
 
-                    }
-                }
+						}
+					}
+				}
             }
 
             if (min_distance == PositionData.MAX_DISTANCE){
-                closestPosition2="OUT OF RANGE";
+                closestPosition3="OUT OF RANGE";
                 Toast.makeText(this,"You are out of range of the selected building",Toast.LENGTH_LONG).show();
 
             }
 
+            result2.setText("Nearest point :  "+ closestPosition2);
 
 
+			Log.v("closest1: ", closestPosition);
+            Log.v("closest2: ", closestPosition2);
+            Log.v("closest3: ", closestPosition3);
 
-            res += "\nCurrent:\n" + positionData.toString();
-            double dist = (Math.pow(10,((min_distance)/10*2)))/100000;
-		Log.v("Result",res);
-		Log.v("dist", String.valueOf(dist));
+
 
 
 
